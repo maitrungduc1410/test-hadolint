@@ -1,6 +1,9 @@
 name: Lint Dockerfile
 
-on: [push]
+on:
+  push:
+    paths:
+      - Dockerfile
 
 jobs:
   lint:
